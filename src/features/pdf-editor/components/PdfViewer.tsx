@@ -60,8 +60,8 @@ export function PdfViewer({
    * Handler cuando el documento se carga
    */
   const handleDocumentLoadSuccess = useCallback(
-    ({ numPages: pages }: { numPages: number }) => {
-      setNumPages(pages);
+    (data: { numPages: number }) => {
+      setNumPages(data.numPages);
       setError(null);
     },
     [],
