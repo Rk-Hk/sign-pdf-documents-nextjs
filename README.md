@@ -338,6 +338,69 @@ Las contribuciones son bienvenidas. Por favor:
 
 ---
 
+
+### **☁️ Deploy & Entorno Productivo (Azure)**
+
+Este proyecto no es solo un demo local. Está preparado y validado para ejecución en entornos productivos usando Azure y Docker.
+
+¿Qué significa esto en la práctica?
+
+✅ La aplicación se empaqueta en una imagen Docker
+
+✅ La imagen se publica en Azure Container Registry
+
+✅ El mismo build corre localmente y en la nube, sin cambios
+
+✅ El entorno está listo para escalar o integrarse con otros servicios
+
+En otras palabras: lo que funciona en local es exactamente lo que se ejecuta en Azure.
+
+🔧 Infraestructura (visión general)
+
+Sin entrar en detalles técnicos, el entorno incluye:
+
+Aplicación containerizada (Docker)
+
+Base de datos PostgreSQL
+
+Pipelines de CI/CD
+
+Herramientas de calidad de código
+
+Automatización de procesos internos
+
+Todo esto se orquesta usando servicios de Microsoft Azure, siguiendo prácticas reales de proyectos empresariales.
+
+🧪 Estado del Proyecto
+
+✔️ Build reproducible
+
+✔️ Contenedores versionados
+
+✔️ Listo para despliegue en la nube
+
+✔️ Separación clara entre frontend, infraestructura y servicios
+
+Este enfoque permite que el proyecto:
+
+Sea fácil de mantener
+
+Pueda crecer sin rehacer arquitectura
+
+Se vea y se comporte como un producto real en producción
+
+🎯 ¿Por qué esto importa para un reclutador?
+
+No es solo código que “corre en mi máquina”
+
+Demuestra experiencia con entornos reales
+
+Refleja criterio de arquitectura y despliegue
+
+Es el tipo de setup que se encuentra en equipos senior
+
+
+
 ## 📄 Licencia
 
 Este proyecto está bajo la Licencia MIT. Ver el archivo [LICENSE](LICENSE) para más detalles.

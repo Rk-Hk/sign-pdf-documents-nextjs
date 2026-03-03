@@ -133,7 +133,7 @@ export function PdfEditorWorkspace() {
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
           <div>
             <h1 className="text-2xl md:text-3xl font-bold text-foreground mb-1 md:mb-2">
-              Editor de Firmas PDF
+              Editor de Firmas PDF (v2)
             </h1>
             <p className="text-sm md:text-base text-muted-foreground">
               Firma tus documentos de forma segura y privada
